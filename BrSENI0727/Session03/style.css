@@ -1,0 +1,76 @@
+/* 1.Demo Link CSS */
+/* h3{
+    color:red !important
+} */
+
+/* 2 CSS Selector */
+/* .item-1{
+    color:brown
+}
+div{
+    color:red
+}
+
+#item-1{
+    color: orange
+}
+
+#container{
+    color:blue
+}
+
+.container{
+    color:blueviolet
+} */
+/* Nen ghi class cha rôi den class con trong css */
+/* .container .item {
+    color: red;
+} */
+
+/* Pseudo Class */
+/* .list-item:hover{
+    color: red;
+} */
+
+/* .list-item :nth-child(2n+1):hover{
+    color: red;
+} */
+
+/* reset css */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.container :nth-child(1){
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* z-index:-2; */
+    /* margin: 50px 25px; (top-right-bottom-left) */
+}
+
+.container :nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    
+}
+
+.container :nth-child(3){
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 176, 33);
+}
